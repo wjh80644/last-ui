@@ -1,0 +1,38 @@
+{
+  "name": "last-ui",
+  "private": false,
+  "version": "0.0.5",
+  "main": "./dist/last-ui.umd.js",
+  "module": "./dist/last-ui.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/last-ui.es.js",
+      "require": "./dist/last-ui.umd.js"
+    }
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "docs-dev": "vuepress dev docs",
+    "docs-build": "vuepress build docs"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "last-ui": "^0.0.5",
+    "sass": "^1.53.0",
+    "vite-plugin-md": "^0.18.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  },
+  "keywords": [
+    "last-ui"
+  ]
+}
